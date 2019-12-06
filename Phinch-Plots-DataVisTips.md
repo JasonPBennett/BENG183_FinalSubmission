@@ -5,8 +5,37 @@
 **Phinch** is a data visualization tool that’s used to quickly analyze complex genomic datasets. Phinch is used primarily for metagenomic datasets, and is used to determine the composition of species in these particular datasets. Phinch has several visualizations for datasets that are publication-ready. One visualization is the **taxonomy bar chart**, which allows users to see the abundance of certain taxa in each sample. Another chart that can be used is the **bubble chart**, where the circle size is positively correlated with the abundance of a given taxon. Additionally, Phinch is capable of displaying a **sankey diagram**, which organizes taxa abundance in samples hierarchically by taxonomy. Phinch is a neat tool that can be used to take a glance at your data without the need for heavy programming knowledge.
 
 
-![
-](https://lh3.googleusercontent.com/Xu8_0yn2lEjDRuZbl1MXfdBSubpZzfyUdiIu83psFge2OdM19SZuj-atPur-c5eU1WSjtdt0daE)
+
+<p align="center">
+  <img width="460" height="300" src="https://lh3.googleusercontent.com/XPB3iYMKCMYYeFmzNfZVNPJIujvALAXPNjz6PLqdk3MK0Fht1vDr6_Rin9MlU6bwS1RK1zEkKEg">
+</p>
+<p align="center">
+  <b>Figure 1</b> a taxonomy bar chart for the abundance of taxa in a coral pond
+
+</p>
+
+<br><br>
+
+
+<p align="center">
+  <img width="460" height="400" src="https://lh3.googleusercontent.com/TEkRPntl3uWbGQr6QIrno25ChirvIAz1PxFN3oblVUsEoJye37gLDDXIDUvCY94LIaZzm23DPWE">
+</p>
+<p align="center">
+  <b>Figure 2</b> a bubble chart for the abundance of taxa in a coral pond
+
+</p>
+<br><br>
+
+
+
+<p align="center">
+  <img width="460" height="400" src="https://lh3.googleusercontent.com/vMTxhrLUlfh_rymkxqKB_bwoMuXJf8pS8PEmeBbTcmc2P7869VE8yDTbEmNCGeXDZgTmghdJ_sU">
+</p>
+<p align="center">
+  <b>Figure 3</b> a sankey chart for the abundance of taxa in a coral pond
+
+</p>
+
 
 # What Plots Should I Use?
 To communicate your research effectively, one must consider how you present your data to others. Graphs are a great way to visualize your data, but how do you know what kind of graph to use? Here is a comparison of the different types of graphs you can use and how they’re useful in different situations.
