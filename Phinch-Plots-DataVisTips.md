@@ -73,7 +73,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/RZwcFGaEL_6NI89unqBFINgKY3yW2OjKk5r11Riw4RQN2x9rq-pTgT1jRIjaaOgr_c982Pc86Xw">
 </p>
 <p align="center">
-  <b><i>Figure 6</b>  an example of using the different color schemes in ColorBrewer. a) data mapping people per square mile by county with a <b>sequential</b> color scheme b) data mapping the percent change in total population from 1990 to 2000 by county with a <b>diverging</b> color scheme c) data mapping minority group with highest percent of county population with a <b>qualitative</b> color scheme</i>
+  <b><i>Figure 6</b>  an example of using the different color schemes in ColorBrewer. a) map of people per square mile by county with a <b>sequential</b> color scheme b) map of the percent change in total population from 1990 to 2000 by county with a <b>diverging</b> color scheme c) map of the minority group with highest percent of county population with a <b>qualitative</b> color scheme</i>
 </p>
 <br><br>
 
@@ -85,7 +85,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/yvrW38gs4jS6M60ujVL-HsGlvLP114p-UHLAjagQbg1dSdPf291EFU6cYHqazKMwZ4f7zjF9nXg">
 </p>
 <p align="center">
-  <b><i>Figure 7</b>  an example of a Hi-C matrix that labels interaction frequency between regions of the genome using a sequential color scheme</i>
+  <b><i>Figure 7</b>  a Hi-C matrix that labels interaction frequency between regions of the genome using a sequential color scheme</i>
 </p>
 <br><br>
 
@@ -96,7 +96,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/tfT9KtobwpHUw_sifdRkn_EXwlyCrVLfs0cHGQBSMEifcBNiyjLhRtfsyQdLFPkYNPto6aRzPeY">
 </p>
 <p align="center">
-  <b><i>Figure 8</b>  an example of a heatmap that labels over and underexpression of genes using a diverging color scheme
+  <b><i>Figure 8</b>  a heatmap that labels over and underexpression of genes using a diverging color scheme
   </i>
 </p>
 <br><br>
