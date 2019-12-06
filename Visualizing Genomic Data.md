@@ -9,9 +9,11 @@
 
 To visualize genomic data, researchers use **circos plots**; a visualization tool used to identify similarities and differences across the genomic structure. Circos plots can be used to visualize multiple aspects that can be revealed through genomic data; such as chromosome similarity, and phylogeny.  In a circular ideogram layout, circos displays the relationship between positions by the use of ribbons (lines connecting the two points in the circle) that encode position, size and orientation of related genomic sequences. The circlular composition is used to show connections between objects and between positions; connections between neighboring points in the circle indicate close interactions, while farther points indicate distant interactions. 
 ![circos_connection.png](http://circos.ca/intro/circular_approach/img/circos-ucsc.png)
+
 **Figure 5.** *Left, sketch of interactions possible within chromosome. Right, Circos plot depicting interactions in human chr21.*
 
 ![type_of_data.png](https://miro.medium.com/max/4152/1*5LvkBQwcRPECEWKDtJO_8g.png)
+
 **Figure 6.** *Type of data that can be visualized by Circos plots*
 
 Circos plots can be made using the original circos software written in Perl, or various R packages, such as:
@@ -30,9 +32,9 @@ Although, a seemingly digestable data visualization tool (and pretty too!), data
 * Keep plots simple! Use circos plots to highlight interesting patterns, and not all your data. 
 
 #### References
-[1] https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract
-[2] https://medium.com/@Marianattestad/a-treatise-on-making-circos-plots-from-genomic-data-7ff496849e0
-[3] http://circos.ca/intro/circular_approach/
+1. https://genome.cshlp.org/content/early/2009/06/15/gr.092759.109.abstract
+2. https://medium.com/@Marianattestad/a-treatise-on-making-circos-plots-from-genomic-data-7ff496849e0
+3. http://circos.ca/intro/circular_approach/
 
 # RNA-Sequencing 
 ## Visualizing Expression Data
@@ -40,11 +42,13 @@ Although, a seemingly digestable data visualization tool (and pretty too!), data
 
 ### Principal Component Analysis (PCA)
 ![PCA.png](https://raybiotech.com/learning-center/wp-content/uploads/2018/11/pca-analysis.png)
+
 **Figure 7.** *Left, Images depict the transformation/reduction of genomic data into principal components. Right, Example of PCA plot.*
 
 Simplifying genomic data like transcriptomes, whole genome sequencing, proteomes, **PCA** is a classical dimension reduction approach where it creates linear combinations of gene expressions, or **principal components**. Principal components are orthogonal to eachother and effectively represent the effects of original measurements by removing redundancies. The purpose of PCA is to reduce dimensionality of the data while preserving as much variance as possible. PCA can be used to discover relationships between biomarkers that can not be easily seen. 
 
 ![PCA_2](https://blog.bioturing.com/wp-content/uploads/2018/11/PCA-plot-color.png)
+
 **Figure 8.** *PCA is used to capture the essence of the data in few principal compentents. This image shows a PCA of cluster similarity.*
 PCA is used when: 
 1) there are many variables (expression of thousands of proteins)
@@ -54,6 +58,7 @@ PCA can be ran on excel using [XLSTAT statistical software](https://www.xlstat.c
 
 ### Heatmaps
 ![heatmap.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Heatmap.png/440px-Heatmap.png)
+
 **Figure 9.** *Image depicts similarities between gene expression in DNA microarrays.*
 
 Heatmaps are a data visualization technique that can be used to identify genes that are commonly regulated, find biological signatures, represent changes in gene expression, etc. The colors within the tiles of the heatmap are scaled within a range proportionate to gene expression values (ex, in a range from white=no expression, and black=high expression, dark grey would indicate moderate level of expression and light grey would indicate low level of expression). Gene sequences corrrespond to the row of the martices (n = number genes), and the chips, or samples corrrespond to the columns (n = number samples). Dendrograms flanking the matix depicts clustering/relationships between the rows/columns. 
@@ -64,11 +69,11 @@ Heatmaps are a data visualization technique that can be used to identify genes t
 * PCAs can be used to reduce the dimensionality of large gene expression datasets 
 * Heatmaps can be used to visualize gene expression patterns
 #### References
-[1] https://academic.oup.com/bib/article/12/6/714/221174
-[2] https://academic.oup.com/bioinformatics/article/17/9/763/206456
-[3] https://www.xlstat.com/en/solutions/features/principal-component-analysis-pca
-[4] https://en.wikipedia.org/wiki/Heat_map
-[5] https://bitesizebio.com/34121/show-disparity-gene-expression-heat-map/
+1. https://academic.oup.com/bib/article/12/6/714/221174
+2. https://academic.oup.com/bioinformatics/article/17/9/763/206456
+3. https://www.xlstat.com/en/solutions/features/principal-component-analysis-pca
+4. https://en.wikipedia.org/wiki/Heat_map
+5. https://bitesizebio.com/34121/show-disparity-gene-expression-heat-map/
 
 # ChIP-sequencing
 
@@ -79,6 +84,7 @@ Chromatin immunoprecipitation, or ChIP, is a method used to identify binding sit
 The [**UCSC Genome Browser**](https://genome.ucsc.edu) is a powerful web-based genome browser that consolidates published studies and Encyclopedia of DNA Elements (ENCODE) in one easy to use site. Here you can import your genome, and visualize transciption factor binding sites brought to you by ChIP-seq in an alignment. 
 
 ![ucsc.png](https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg)
+
 **Figure 11.** *Different customizable features of the UCSC Genome Browser*
 
 The UCSC Genome Browser should be used when:
@@ -93,7 +99,7 @@ The UCSC Genome Browser should NOT be used when:
 * UCSC genome browser is a powerful genome browser that holds a lot of published DNA information, but it can be slow to use as it is web-based, making it an optimal choice for smaller datasets. 
 * 
 #### References
-[1] https://www.encodeproject.org/documents/92228d7b-f959-4dcd-94d3-39f5173fd92a/@@download/attachment/UsersMtg-UCSCbrowser.pdf
-[2] http://homer.ucsd.edu/homer/basicTutorial/genomeBrowsers.html
-[3] http://systemsbio.ucsd.edu/course/BENG207/tutorial/images/ucscdisplay.jpg
-[4] https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg
+1. https://www.encodeproject.org/documents/92228d7b-f959-4dcd-94d3-39f5173fd92a/@@download/attachment/UsersMtg-UCSCbrowser.pdf
+2. http://homer.ucsd.edu/homer/basicTutorial/genomeBrowsers.html
+3. http://systemsbio.ucsd.edu/course/BENG207/tutorial/images/ucscdisplay.jpg
+4. https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg
