@@ -80,3 +80,9 @@ As we have seen, Hi-C sequencing can provide valuable insight into the nature of
 5. Yardımcı, G. G. & Noble, W. S. Software tools for visualizing Hi-C data.  _Genome Biology_  (2016). doi:10.1101/086017
 
 6. Lajoie, B. R., Berkum, N. L. V., Sanyal, A. & Dekker, J. My5C: web tools for chromosome conformation capture studies.  _Nature Methods_  **6,**  690–691 (2009).
+
+
+
+# Data Visualization Conclusion
+
+Over the course of this chapter, we have explored a range of data visualization techniques. We started with specific tools and tips for distinct data sets which lead to more general guidelines for creating effective figures. The sections that dealt with more specialized tools were intended not only as a simple guide in dealing with that particular type of data, but also as an example of how deep you can go when considering what kind of figures you want to make for your own data. For most of the data that you will deal with, there will already be data visualization tools at your disposal. This means that the most difficult part of presenting your data usually will not be generating the figures, but deciding which kind of figures you want to make! These are the choices that we wanted to focus on. We hope that after reading this chapter, you feel more informed and empowered to make your own impactful figures no matter the kind of data you are working with!
