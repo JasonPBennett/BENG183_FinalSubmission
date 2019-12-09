@@ -298,7 +298,7 @@ The UCSC Genome Browser should be used when:
 
 
 # Visualizing Metagenomic Data
-[Phinch](https://phinch.org) is a data visualization tool that’s used to quickly analyze complex genomic datasets. Phinch is used primarily for metagenomic datasets, and is used to determine the composition of species in these particular datasets. Phinch has several visualizations for datasets that are publication-ready. One visualization is the **taxonomy bar chart**, which allows users to see the abundance of certain taxa in each sample. Another chart that can be used is the **bubble chart**, where the circle size is positively correlated with the abundance of a given taxon. Additionally, Phinch is capable of displaying a **sankey diagram**, which organizes taxa abundance in samples hierarchically by taxonomy. Phinch is a neat tool that can be used to take a glance at your data without the need for heavy programming knowledge.
+[Phinch](https://phinch.org) is a data visualization tool that’s used to quickly analyze complex genomic datasets [1]. Phinch is used primarily for metagenomic datasets, and is used to determine the composition of species in these particular datasets. Phinch has several visualizations for datasets that are publication-ready. One visualization is the **taxonomy bar chart**, which allows users to see the abundance of certain taxa in each sample. Another chart that can be used is the **bubble chart**, where the circle size is positively correlated with the abundance of a given taxon. Additionally, Phinch is capable of displaying a **sankey diagram**, which organizes taxa abundance in samples hierarchically by taxonomy. Phinch is a neat tool that can be used to take a glance at your data without the need for heavy programming knowledge.
 
 
 
@@ -334,7 +334,7 @@ The UCSC Genome Browser should be used when:
 
 
 # What Plots Should I Use?
-To communicate your research effectively, one must consider how you present your data to others. Graphs are a great way to visualize your data, but how do you know what kind of graph to use? Here is a comparison of the different types of graphs you can use and how they’re useful in different situations.
+To communicate your research effectively, one must consider how you present your data to others. Graphs are a great way to visualize your data, but how do you know what kind of graph to use? Here is a comparison of the different types of graphs you can use and how they’re useful in different situations [3]. 
 
 <p align="center">
   <img width="460" height="480" src="https://lh3.googleusercontent.com/_jnw5gSxkfYlko_HrB5NdVjPeS5V5JYBH4PSC1MhEaFGCnmhmlfUDinItA0pQAf_A4deZ_KCsaI">
@@ -346,7 +346,7 @@ To communicate your research effectively, one must consider how you present your
 
 It’s also important to choose a graph that represents your data well. For example, a bar graph is more visually appealing in this plot describing cancer incidence than a line plot, because you can see the difference between types more clearly in the bar graph. 
 
-Additionally, it’s very important to order your data in a way that has a logical order, so that trends in the data are obviously seen at first glance. In plotting cancer incidence by tissue type, it’s difficult to see which tissue type has the highest/lowest cancer incidence in the left plot, whereas in the right plot, you can easily see the trend as the types are arranged from highest to lowest cancer incidence.
+Additionally, it’s very important to order your data in a way that has a logical order, so that trends in the data are obviously seen at first glance. In plotting cancer incidence by tissue type, it’s difficult to see which tissue type has the highest/lowest cancer incidence in the left plot, whereas in the right plot, you can easily see the trend as the types are arranged from highest to lowest cancer incidence [4]. 
 
 
 <p align="center">
@@ -361,7 +361,7 @@ Additionally, it’s very important to order your data in a way that has a logic
 
 # Choosing Colors that Represent your Data
 
-Although it seems like a minute detail in presenting your data, picking colors is something that cannot be overlooked. To represent your data well, you need to make sure to pick colors that correspond to trends in the data you are trying to emphasize to the reader. **Don’t handpick your colors!** Let the color palettes you pick explain your data. [ColorBrewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) is a useful tool you can use to pick color schemes for different purposes. The three types of schemes are sequential, diverging, and qualitative. Below are examples of how you could use each color scheme.
+Although it seems like a minute detail in presenting your data, picking colors is something that cannot be overlooked. To represent your data well, you need to make sure to pick colors that correspond to trends in the data you are trying to emphasize to the reader. **Don’t handpick your colors!** Let the color palettes you pick explain your data. [ColorBrewer](http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3) is a useful tool you can use to pick color schemes for different purposes [2]. The three types of schemes are sequential, diverging, and qualitative. Below are examples of how you could use each color scheme.
 
 
 
@@ -407,6 +407,14 @@ Although it seems like a minute detail in presenting your data, picking colors i
     </i>
 </p>
 <br><br>
+ 
+1. Bik, Holly, “Phinch: An interactive, exploratory data visualization framework for –Omic datasets.” bioRxiv, doi: https://doi.org/10.1101/009944
+
+2. Harrower, Mark, et al., “ColorBrewer.org: An Online Tool for Selecting Colour Schemes for Maps.” The Cartographic Journal, Vol. 40 No. 1 pp. 27–37, June 2003.
+
+3. https://www.ck12.org/statistics/types-of-data-representation/lesson/Analyzing-Data-PST/
+
+4. http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/DataPresentation/DataPresentation7.html
 
 # Data Visualization Conclusion
 
