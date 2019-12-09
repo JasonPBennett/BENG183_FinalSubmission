@@ -88,19 +88,25 @@ As we have seen, Hi-C sequencing can provide valuable insight into the nature of
 **Genomic data** holds the past, present and future of an individual - the human genome. Sequencing the human genome of 3 billion base pairs was not feasible until the development of cheaper and faster sequencing technologies. Now that we can efficiently, and cheaply harvest the data derived from the human genome, how do we visualize its interpretations? 
 
 ### Circos Plots
-![image.png](https://www.dropbox.com/s/x8cigibubj4ihb1/image.png?dl=0&raw=1)
-**Figure 4.** *Circos plot generated using the software, Circa, visualizing varients in the breast cancer cell line*
+<p align="center">
+  <img width=700 height=700 src="https://www.dropbox.com/s/x8cigibubj4ihb1/image.png?dl=0&raw=1">
+</p>
+<p align="center">
+  <b><i>Figure 4:</b>  Circos plot generated using the software, Circa, visualizing varients in the breast cancer cell line
+  </i>
+</p>
+<br><br>
 
 To visualize genomic data, researchers use **circos plots**; a visualization tool used to identify similarities and differences across the genomic structure. Circos plots can be used to visualize multiple aspects that can be revealed through genomic data; such as chromosome similarity, and phylogeny.  In a circular ideogram layout, circos displays the relationship between positions by the use of ribbons (lines connecting the two points in the circle) that encode position, size and orientation of related genomic sequences. The circlular composition is used to show connections between objects and between positions; connections between neighboring points in the circle indicate close interactions, while farther points indicate distant interactions. 
-![circos_connection.png](http://circos.ca/intro/circular_approach/img/circos-ucsc.png)
-
-**Figure 5.** *Left, sketch of interactions possible within chromosome. Right, Circos plot depicting interactions in human chr21.*
 
 <p align="center">
-<img width="200" height="200" src="https://miro.medium.com/max/4152/1*5LvkBQwcRPECEWKDtJO_8g.png">
+  <img width="auto" height="auto" src="http://circos.ca/intro/circular_approach/img/circos-ucsc.png">
 </p>
-
-**Figure 6.** *Type of data that can be visualized by Circos plots*
+<p align="center">
+  <b><i>Figure 5:</b>  Left, sketch of interactions possible within chromosome. Right, Circos plot depicting interactions in human chr21.
+  </i>
+</p>
+<br><br>
 
 Circos plots can be made using the original circos software written in Perl, or various R packages, such as:
 * cirlize
@@ -132,16 +138,25 @@ Although, a seemingly digestable data visualization tool (and pretty too!), data
 
 ### Principal Component Analysis (PCA)
 
-![PCA.png](https://raybiotech.com/learning-center/wp-content/uploads/2018/11/pca-analysis.png)
-
-
-**Figure 7.** *Left, Images depict the transformation/reduction of genomic data into principal components. Right, Example of PCA plot.*
+<p align="center">
+  <img width="auto" height="auto" src="https://raybiotech.com/learning-center/wp-content/uploads/2018/11/pca-analysis.png">
+</p>
+<p align="center">
+  <b><i>Figure 6:</b>  Left, Images depict the transformation/reduction of genomic data into principal components. Right, Example of PCA plot.
+  </i>
+</p>
+<br><br>
 
 Simplifying genomic data like transcriptomes, whole genome sequencing, proteomes, **PCA** is a classical dimension reduction approach where it creates linear combinations of gene expressions, or **principal components**. Principal components are orthogonal to eachother and effectively represent the effects of original measurements by removing redundancies. The purpose of PCA is to reduce dimensionality of the data while preserving as much variance as possible. PCA can be used to discover relationships between biomarkers that can not be easily seen. 
 
-![PCA_2](https://blog.bioturing.com/wp-content/uploads/2018/11/PCA-plot-color.png)
-
-**Figure 8.** *PCA is used to capture the essence of the data in few principal compentents. This image shows a PCA of cluster similarity.*
+<p align="center">
+  <img width=700 height=700 src="https://blog.bioturing.com/wp-content/uploads/2018/11/PCA-plot-color.png">
+</p>
+<p align="center">
+  <b><i>Figure 7:</b> PCA is used to capture the essence of the data in few principal compentents. This image shows a PCA of cluster similarity.
+  </i>
+</p>
+<br><br>
 
 PCA is used when: 
 1) there are many variables (expression of thousands of proteins)
@@ -151,15 +166,25 @@ PCA can be ran on excel using [XLSTAT statistical software](https://www.xlstat.c
 
 ### Heatmaps
 
-![heatmap.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Heatmap.png/440px-Heatmap.png)
-
-**Figure 9.** *Image depicts similarities between gene expression in DNA microarrays.*
+<p align="center">
+  <img width="auto" height="auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Heatmap.png/440px-Heatmap.png">
+</p>
+<p align="center">
+  <b><i>Figure 8:</b> Image depicts similarities between gene expression in DNA microarrays.
+  </i>
+</p>
+<br><br>
 
 Heatmaps are a data visualization technique that can be used to identify genes that are commonly regulated, find biological signatures, represent changes in gene expression, etc. The colors within the tiles of the heatmap are scaled within a range proportionate to gene expression values (ex, in a range from white=no expression, and black=high expression, dark grey would indicate moderate level of expression and light grey would indicate low level of expression). Gene sequences corrrespond to the row of the martices (n = number genes), and the chips, or samples corrrespond to the columns (n = number samples). Dendrograms flanking the matix depicts clustering/relationships between the rows/columns. 
 
-![Heatmap_Image2](https://bitesizebio.com/wp-content/uploads/2017/03/1.jpg)
-
-**Figure 10.** *Understanding the color gradients within a heatmap is essential. In this example, red is highly expressed while green is low expression of the genes (right) at the experimental conditions (bottom)*
+<p align="center">
+  <img width=700 height=700 src="https://bitesizebio.com/wp-content/uploads/2017/03/1.jpg">
+</p>
+<p align="center">
+  <b><i>Figure 9:</b> Understanding the color gradients within a heatmap is essential. In this example, red is highly expressed while green is low expression of the genes (right) at the experimental conditions (bottom)
+  </i>
+</p>
+<br><br>
 
 ### Summary:
 
@@ -184,7 +209,14 @@ Chromatin immunoprecipitation, or ChIP, is a method used to identify binding sit
 
 The [**UCSC Genome Browser**](https://genome.ucsc.edu) is a powerful web-based genome browser that consolidates published studies and Encyclopedia of DNA Elements (ENCODE) in one easy to use site. Here you can import your genome, and visualize transciption factor binding sites brought to you by ChIP-seq in an alignment. 
 
-![ucsc.png](https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg)
+<p align="center">
+  <img width="auto" height="auto" src="https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg)">
+</p>
+<p align="center">
+  <b><i>Figure 10:</b> Different customizable features of the UCSC Genome Browser
+  </i>
+</p>
+<br><br>
 
 **Figure 11.** *Different customizable features of the UCSC Genome Browser*
 
@@ -197,9 +229,14 @@ The UCSC Genome Browser should NOT be used when:
 ### Integrative Genome Viewer (IGV)
 **IGV**, Integratice Genomics Viewer, is a tool that allows for real-time visualization of large and diverse genomic datasets. Unlike UCSC Genome browser, IGV is a downloadable software for your local machine, meaning that interactions such as aligned sequence reads, mutations, copy number, gene expression, etc, faster than before. Datasets used by IGV can be loaded locally or remotely through cloud services - no loading time!
 
-![igv.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg)
-
-**Figure 12.** *IGV window displaying copy number and mutation data.*
+<p align="center">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg)">
+</p>
+<p align="center">
+  <b><i>Figure 11:</b> IGV window displaying copy number and mutation data.
+  </i>
+</p>
+<br><br>
 
 The UCSC Genome Browser should be used when:
 * you want to visualize a large get of genomic data in a seamless, and fast visualization tool against your own datasets.
@@ -210,20 +247,36 @@ The UCSC Genome Browser should be used when:
 
 [**JASPAR**](http://jaspar.genereg.net) is a large open-access, open-source, non-redundant database of *Transcription Factor* (TF) binding sites for eukaryotes. The TF binding site data is stored as position frequency matrices (PFMs) and TF flexible models (TFFMs). 
 
-![Jaspar.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig2.jpg)
+<p align="center">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig2.jpg)">
+</p>
+<p align="center">
+  <b><i>Figure 12:</b> JASPAR interactive searching interface.
+  </i>
+</p>
+<br><br>
 
-**Figure 13.** *JASPAR interactive searching interface.*
-
-![Jaspar2.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg)
-**Figure 14.** *JASPAR clustering. Circos plot of JASPAR PFM clusters. Clicking into leaf in circos plot will show cooresponding motif descriptions. 
+<p align="center">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg)">
+</p>
+<p align="center">
+  <b><i>Figure 13:</b> JASPAR clustering. Circos plot of JASPAR PFM clusters. Clicking into leaf in circos plot will show cooresponding motif descriptions. 
+  </i>
+</p>
+<br><br>
 
 ### MEME
 
 [**MEME**](http://meme-suite.org/tools/meme), Multiple Em for Motif Elicitation, discovers new and unique reoccuring, fixed length patterns within DNA or protein sequences. Users will submit their sequences, and MEME will output a fixed number of motifs determined by the threshold set by the user. Using statistical modeling, MEME outputs the sequences of best width, number occurances and a description of each motif. 
 
-![MEME.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg)
-
-**Figure 15.** *Sample Meme html output: Displays protein motifs found by MEME*
+<p align="center">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg)">
+</p>
+<p align="center">
+  <b><i>Figure 14:</b> Sample Meme html output: Displays protein motifs found by MEME
+  </i>
+</p>
+<br><br>
 
 ### Summary:
 
@@ -244,8 +297,6 @@ The UCSC Genome Browser should be used when:
 9. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/
 
 
-
-
 # Visualizing Metagenomic Data
 [Phinch](https://phinch.org) is a data visualization tool that’s used to quickly analyze complex genomic datasets. Phinch is used primarily for metagenomic datasets, and is used to determine the composition of species in these particular datasets. Phinch has several visualizations for datasets that are publication-ready. One visualization is the **taxonomy bar chart**, which allows users to see the abundance of certain taxa in each sample. Another chart that can be used is the **bubble chart**, where the circle size is positively correlated with the abundance of a given taxon. Additionally, Phinch is capable of displaying a **sankey diagram**, which organizes taxa abundance in samples hierarchically by taxonomy. Phinch is a neat tool that can be used to take a glance at your data without the need for heavy programming knowledge.
 
@@ -255,7 +306,7 @@ The UCSC Genome Browser should be used when:
   <img width="460" height="300" src="https://lh3.googleusercontent.com/XPB3iYMKCMYYeFmzNfZVNPJIujvALAXPNjz6PLqdk3MK0Fht1vDr6_Rin9MlU6bwS1RK1zEkKEg">
 </p>
 <p align="center">
-  <b><i>Figure 1</b> a taxonomy bar chart for the abundance of taxa in a coral pond</i>
+  <b><i>Figure 15</b> a taxonomy bar chart for the abundance of taxa in a coral pond</i>
 
 </p>
 
@@ -266,7 +317,7 @@ The UCSC Genome Browser should be used when:
   <img width="460" height="400" src="https://lh3.googleusercontent.com/TEkRPntl3uWbGQr6QIrno25ChirvIAz1PxFN3oblVUsEoJye37gLDDXIDUvCY94LIaZzm23DPWE">
 </p>
 <p align="center">
-  <b><i>Figure 2</b> a bubble chart for the abundance of taxa in a coral pond</i>
+  <b><i>Figure 16</b> a bubble chart for the abundance of taxa in a coral pond</i>
 
 </p>
 <br><br>
@@ -277,7 +328,7 @@ The UCSC Genome Browser should be used when:
   <img width="460" height="400" src="https://lh3.googleusercontent.com/vMTxhrLUlfh_rymkxqKB_bwoMuXJf8pS8PEmeBbTcmc2P7869VE8yDTbEmNCGeXDZgTmghdJ_sU">
 </p>
 <p align="center">
-  <b><i>Figure 3</b> a sankey chart for the abundance of taxa in a coral pond</i>
+  <b><i>Figure 17</b> a sankey chart for the abundance of taxa in a coral pond</i>
 
 </p>
 
@@ -289,7 +340,7 @@ To communicate your research effectively, one must consider how you present your
   <img width="460" height="480" src="https://lh3.googleusercontent.com/_jnw5gSxkfYlko_HrB5NdVjPeS5V5JYBH4PSC1MhEaFGCnmhmlfUDinItA0pQAf_A4deZ_KCsaI">
 </p>
 <p align="center">
-  <b><i>Figure 4</b> A comparison of different types of plots and their strengths and weaknesses</i>
+  <b><i>Figure 18</b> A comparison of different types of plots and their strengths and weaknesses</i>
 </p>
 <br><br>
 
@@ -302,7 +353,7 @@ Additionally, it’s very important to order your data in a way that has a logic
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/ntJ2JuZm0BQgaZt-aDpuIEeUAW2Qk8q_IjPr-wcEN_vd9-j3diQ6qwt8PPwoAYpLgsKaNqNhAWg">
 </p>
 <p align="center">
-  <b><i>Figure 5</b>  Plots where cancer incidence by type is plotted as a bar graph (top left), line plot (top right). The elements in the graph are unordered by tissue (bottom left), and ordered by lowest cancer incidence to highest cancer incidence (bottom right)</i>
+  <b><i>Figure 19</b>  Plots where cancer incidence by type is plotted as a bar graph (top left), line plot (top right). The elements in the graph are unordered by tissue (bottom left), and ordered by lowest cancer incidence to highest cancer incidence (bottom right)</i>
 </p>
 <br><br>
 
@@ -318,7 +369,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/RZwcFGaEL_6NI89unqBFINgKY3yW2OjKk5r11Riw4RQN2x9rq-pTgT1jRIjaaOgr_c982Pc86Xw">
 </p>
 <p align="center">
-  <b><i>Figure 6</b>  an example of using the different color schemes in ColorBrewer. a) map of people per square mile by county with a <b>sequential</b> color scheme b) map of the percent change in total population from 1990 to 2000 by county with a <b>diverging</b> color scheme c) map of the minority group with highest percent of county population with a <b>qualitative</b> color scheme</i>
+  <b><i>Figure 20</b>  an example of using the different color schemes in ColorBrewer. a) map of people per square mile by county with a <b>sequential</b> color scheme b) map of the percent change in total population from 1990 to 2000 by county with a <b>diverging</b> color scheme c) map of the minority group with highest percent of county population with a <b>qualitative</b> color scheme</i>
 </p>
 <br><br>
 
@@ -330,7 +381,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/yvrW38gs4jS6M60ujVL-HsGlvLP114p-UHLAjagQbg1dSdPf291EFU6cYHqazKMwZ4f7zjF9nXg">
 </p>
 <p align="center">
-  <b><i>Figure 7</b>  a Hi-C matrix that labels interaction frequency between regions of the genome using a sequential color scheme</i>
+  <b><i>Figure 21</b>  a Hi-C matrix that labels interaction frequency between regions of the genome using a sequential color scheme</i>
 </p>
 <br><br>
 
@@ -341,7 +392,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/tfT9KtobwpHUw_sifdRkn_EXwlyCrVLfs0cHGQBSMEifcBNiyjLhRtfsyQdLFPkYNPto6aRzPeY">
 </p>
 <p align="center">
-  <b><i>Figure 8</b>  a heatmap that labels over and underexpression of genes using a diverging color scheme
+  <b><i>Figure 22</b>  a heatmap that labels over and underexpression of genes using a diverging color scheme
   </i>
 </p>
 <br><br>
@@ -352,7 +403,7 @@ Although it seems like a minute detail in presenting your data, picking colors i
   <img width="auto" height="auto" src="https://lh3.googleusercontent.com/xF27-ZtlbyxDt9of5rwQkZ23F1s36wW2bwS0owxDkP9JoeHbPfGB36XrMen3V-fSjS13mT3tLYE">
 </p>
 <p align="center">
-  <b><i>Figure 9</b>  a Manhattan plot labeling the different chromosomes using a qualitative color scheme
+  <b><i>Figure 23</b>  a Manhattan plot labeling the different chromosomes using a qualitative color scheme
     </i>
 </p>
 <br><br>
