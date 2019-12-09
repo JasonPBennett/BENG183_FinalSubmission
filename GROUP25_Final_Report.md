@@ -227,7 +227,7 @@ The UCSC Genome Browser should NOT be used when:
 * you have a large dataset, i.e. large sequences, as it can be slow due to web traffic
 
 ### Integrative Genome Viewer (IGV)
-**IGV**, Integratice Genomics Viewer, is a tool that allows for real-time visualization of large and diverse genomic datasets. Unlike UCSC Genome browser, IGV is a downloadable software for your local machine, meaning that interactions such as aligned sequence reads, mutations, copy number, gene expression, etc, faster than before. Datasets used by IGV can be loaded locally or remotely through cloud services - no loading time!
+[**IGV**](https://igv.org), Integratice Genomics Viewer, is a tool that allows for real-time visualization of large and diverse genomic datasets. Unlike UCSC Genome browser, IGV is a downloadable software for your local machine, meaning that interactions such as aligned sequence reads, mutations, copy number, gene expression, etc, faster than before. Datasets used by IGV can be loaded locally or remotely through cloud services - no loading time!
 
 <p align="center">
   <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg">
