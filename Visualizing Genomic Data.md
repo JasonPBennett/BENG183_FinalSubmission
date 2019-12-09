@@ -84,7 +84,6 @@ Chromatin immunoprecipitation, or ChIP, is a method used to identify binding sit
 The [**UCSC Genome Browser**](https://genome.ucsc.edu) is a powerful web-based genome browser that consolidates published studies and Encyclopedia of DNA Elements (ENCODE) in one easy to use site. Here you can import your genome, and visualize transciption factor binding sites brought to you by ChIP-seq in an alignment. 
 
 ![ucsc.png](https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg)
-
 **Figure 11.** *Different customizable features of the UCSC Genome Browser*
 
 The UCSC Genome Browser should be used when:
@@ -93,13 +92,43 @@ The UCSC Genome Browser should be used when:
 The UCSC Genome Browser should NOT be used when:
 * you have a large dataset, i.e. large sequences, as it can be slow due to web traffic
 ### Integrative Genome Viewer (IGV)
-**IGV** is a Java based genome viewer that runs locally on your computer. 
+**IGV**, Integratice Genomics Viewer, is a tool that allows for real-time visualization of large and diverse genomic datasets. Unlike UCSC Genome browser, IGV is a downloadable software for your local machine, meaning that interactions such as aligned sequence reads, mutations, copy number, gene expression, etc, faster than before. Datasets used by IGV can be loaded locally or remotely through cloud services - no loading time!
+
+![igv.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg)
+**Figure 12.** *IGV window displaying copy number and mutation data.*
+
+The UCSC Genome Browser should be used when:
+* you want to visualize a large get of genomic data in a seamless, and fast visualization tool against your own datasets.
+
+## Motif Finding
+### JASPAR
+[**JASPAR**](http://jaspar.genereg.net) is a large open-access, open-source, non-redundant database of *Transcription Factor* (TF) binding sites for eukaryotes. The TF binding site data is stored as position frequency matrices (PFMs) and TF flexible models (TFFMs). 
+
+![Jaspar.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig2.jpg)
+
+**Figure 13.** *JASPAR interactive searching interface.*
+
+![Jaspar2.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg)
+**Figure 14.** *JASPAR clustering. Circos plot of JASPAR PFM clusters. Clicking into leaf in circos plot will show cooresponding motif descriptions. 
+
+### MEME
+[**MEME**](http://meme-suite.org/tools/meme), Multiple Em for Motif Elicitation, discovers new and unique reoccuring, fixed length patterns within DNA or protein sequences. Users will submit their sequences, and MEME will output a fixed number of motifs determined by the threshold set by the user. Using statistical modeling, MEME outputs the sequences of best width, number occurances and a description of each motif. 
+
+![MEME.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg)
+**Figure 15.** *Sample Meme html output: Displays protein motifs found by MEME*
 
 ### Summary:
 * UCSC genome browser is a powerful genome browser that holds a lot of published DNA information, but it can be slow to use as it is web-based, making it an optimal choice for smaller datasets. 
-* 
+* IGV is a integrative visualization tool that allows you to load your own datasets along with external datasets, and harvest information against large datasets faster than that of the UCSC Genome Browser.
+* JASPAR is an interactive tool for not only visualizing and finding TF motifs. JASPAR differs from its competitors as it is curated, non-redundant and open-source. 
+* MEME is used to find unique and new motifs within a sequence. Although not interactive, MEME outputs its results in html format for the bioinformatician to analyze. 
 #### References
 1. https://www.encodeproject.org/documents/92228d7b-f959-4dcd-94d3-39f5173fd92a/@@download/attachment/UsersMtg-UCSCbrowser.pdf
 2. http://homer.ucsd.edu/homer/basicTutorial/genomeBrowsers.html
 3. http://systemsbio.ucsd.edu/course/BENG207/tutorial/images/ucscdisplay.jpg
 4. https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg
+5. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/
+6. http://jaspar.genereg.net/about/
+7. https://www.ncbi.nlm.nih.gov/pubmed/29140473
+8. https://en.wikipedia.org/wiki/MEME_suite
+9. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/
