@@ -109,12 +109,14 @@ The UCSC Genome Browser should be used when:
 **Figure 13.** *JASPAR interactive searching interface.*
 
 ![Jaspar2.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg)
+
 **Figure 14.** *JASPAR clustering. Circos plot of JASPAR PFM clusters. Clicking into leaf in circos plot will show cooresponding motif descriptions. 
 
 ### MEME
 [**MEME**](http://meme-suite.org/tools/meme), Multiple Em for Motif Elicitation, discovers new and unique reoccuring, fixed length patterns within DNA or protein sequences. Users will submit their sequences, and MEME will output a fixed number of motifs determined by the threshold set by the user. Using statistical modeling, MEME outputs the sequences of best width, number occurances and a description of each motif. 
 
 ![MEME.png](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg)
+
 **Figure 15.** *Sample Meme html output: Displays protein motifs found by MEME*
 
 ### Summary:
