@@ -210,7 +210,7 @@ Chromatin immunoprecipitation, or ChIP, is a method used to identify binding sit
 The [**UCSC Genome Browser**](https://genome.ucsc.edu) is a powerful web-based genome browser that consolidates published studies and Encyclopedia of DNA Elements (ENCODE) in one easy to use site. Here you can import your genome, and visualize transciption factor binding sites brought to you by ChIP-seq in an alignment. 
 
 <p align="center">
-  <img width="auto" height="auto" src="https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg)">
+  <img width="auto" height="auto" src="https://ars.els-cdn.com/content/image/1-s2.0-S0888754308000451-gr1.jpg">
 </p>
 <p align="center">
   <b><i>Figure 10:</b> Different customizable features of the UCSC Genome Browser
@@ -230,7 +230,7 @@ The UCSC Genome Browser should NOT be used when:
 **IGV**, Integratice Genomics Viewer, is a tool that allows for real-time visualization of large and diverse genomic datasets. Unlike UCSC Genome browser, IGV is a downloadable software for your local machine, meaning that interactions such as aligned sequence reads, mutations, copy number, gene expression, etc, faster than before. Datasets used by IGV can be loaded locally or remotely through cloud services - no loading time!
 
 <p align="center">
-  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg)">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3346182/bin/nihms247133f1.jpg">
 </p>
 <p align="center">
   <b><i>Figure 11:</b> IGV window displaying copy number and mutation data.
@@ -248,7 +248,7 @@ The UCSC Genome Browser should be used when:
 [**JASPAR**](http://jaspar.genereg.net) is a large open-access, open-source, non-redundant database of *Transcription Factor* (TF) binding sites for eukaryotes. The TF binding site data is stored as position frequency matrices (PFMs) and TF flexible models (TFFMs). 
 
 <p align="center">
-  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig2.jpg)">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig2.jpg">
 </p>
 <p align="center">
   <b><i>Figure 12:</b> JASPAR interactive searching interface.
@@ -257,7 +257,7 @@ The UCSC Genome Browser should be used when:
 <br><br>
 
 <p align="center">
-  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg)">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753243/bin/gkx1126fig1.jpg">
 </p>
 <p align="center">
   <b><i>Figure 13:</b> JASPAR clustering. Circos plot of JASPAR PFM clusters. Clicking into leaf in circos plot will show cooresponding motif descriptions. 
@@ -270,7 +270,7 @@ The UCSC Genome Browser should be used when:
 [**MEME**](http://meme-suite.org/tools/meme), Multiple Em for Motif Elicitation, discovers new and unique reoccuring, fixed length patterns within DNA or protein sequences. Users will submit their sequences, and MEME will output a fixed number of motifs determined by the threshold set by the user. Using statistical modeling, MEME outputs the sequences of best width, number occurances and a description of each motif. 
 
 <p align="center">
-  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg)">
+  <img width="auto" height="auto" src="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1538909/bin/gkl198f1.jpg">
 </p>
 <p align="center">
   <b><i>Figure 14:</b> Sample Meme html output: Displays protein motifs found by MEME
